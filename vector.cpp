@@ -7,6 +7,10 @@ int main(int argc, char const *argv[])
 	std::vector<int> vec(inta,inta+5);
 	for(int a:vec){
 		std::cout<<a<<std::endl;
+		vec.push_back(24);
+	}
+	for(int a:vec){
+		std::cout<<a<<std::endl;
 	}
 	return 0;
 }
